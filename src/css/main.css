@@ -1,0 +1,83 @@
+/* 
+* @Author: Marte
+* @Date:   2016-11-09 14:38:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-10 10:18:36
+*/
+.main-banner{
+    height:250px;
+    background: #fff url('../img/indexbg.png') ;
+    background-size:cover;
+}
+.main-name{
+    border-left:3px solid #14d5aa;
+    padding-left:5px;
+}
+.main-name.main-name2{
+    border-color: #007589;
+    color:#007589;
+}
+.main-panel .panel-header{
+    height:90px;
+    border-bottom:1px solid #ddd ;
+}
+.main-panel .btn-group .btn:first-child{border-right:0;}
+.main-panel .btn-group .btn:last-child{border-left:0;}
+.main-panel .weekday{margin-left: 0;border-bottom:1px solid #ddd;}
+.main-panel .weekday li{width:14.2%;float:left;padding:0;}
+.main-panel .weekdays li{padding:10px 0;}
+.main-panel .weekday li a{
+    display:inline-block;
+    width:50px;height:50px;border-radius:50px;
+    background-color:transparent;
+    color:#000;
+}
+.main-panel .weekday li a.today,.main-panel .weekday li a:hover.today{
+    background-color:#ea6262;
+    color:#fff;
+}
+.main-panel .weekday li a:hover{
+    background-color:#ccc;
+    color:#000;
+}
+.main-panel .time{border-right:1px solid #ddd;height:90px;width:100px;line-height:normal;}
+.main-change-day a:hover{background-color:#ddd;}
+
+
+.main-row{display:table;width:100%;margin:auto;margin-top:10px;}
+.main-row>div{display:table-cell;}
+.main-row>div:last-child{
+    width:250px;
+    padding-left:20px;
+}
+.main-near-app li{
+    width:230px;
+    height:80px;
+    line-height:80px;
+    margin-bottom: 20px;
+    background-color: #fff ;
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    text-indent:100px ;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+.main-near-app a:hover li{
+    background-color:#f3f3f3;
+}
+.main-near-app li.item1{
+    background-image: url(../img/lishi_1.png);
+}
+.main-near-app li.item2{
+    background-image: url(../img/lishi_2.png);
+}
+.main-near-app li.item3{
+    background-image: url(../img/lishi_3.png);
+}
+.main-near-app li.item4{
+    background-image: url(../img/lishi_4.png);
+}
+.main-memo{width:100%;margin:auto;margin-bottom:20px;}
+.main-memo td{padding:10px 20px;}

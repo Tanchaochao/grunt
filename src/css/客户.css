@@ -1,0 +1,68 @@
+.table-orange{background-color: #F7841A;border-radius: 100px;padding: 8px 4px;color: #fff;}
+.table-green{background-color: #1CC084;border-radius: 100px;padding: 8px 4px;color: #fff;}
+.table-red{background-color: #EC6260;border-radius: 100px;padding: 8px 4px;color: #fff;}
+.table-transparent{background-color: transparent;border-radius: 100px;padding: 8px 4px;}
+.customer-table.table>tbody>tr>td{vertical-align: middle;}
+.customer-form .select-lg,.customer-form .select-lg input{width: 565px;}
+.customer-form input.inputLg{width: 560px;}
+.customer-form .div-lg{width: 100%;}
+.customer-form .div-half{min-width: 49%;padding-right:20px;display:inline-block;}
+.customer-form .customer-text{max-width:490px;display:inline-block;vertical-align:top;padding-top:6px;}
+.bordashed{border-bottom: 1px dashed #e5e5e5;border-top: none;}
+.slider-header{border-bottom: 1px solid #DDDDDD;padding-bottom: 15px;}
+.sh-bottom{padding: 0;margin: 0;list-style-type: none;}
+.sh-bottom>li{float: left;}
+.slider-left{width: 670px;}
+.slider-right{width: 280px;}
+.form-group .customer-edit{display: none;}
+input.w495{width: 495px;}
+input.w485{width: 485px;}
+.dynamic-rolling{height: 300px;padding-left: 25px;}
+.dynamic-rolling .swiper-slide{width: 220px !important;position: relative;color: #9f9fa0;}
+.dynamic-rolling .swiper-slide:before{content: "";position: absolute;top: 3px;left: -20px;width: 10px;height: 10px;background-color: #14D5AA;border-radius: 20px;}
+
+/* 销售进度  */
+.file-list{list-style-type: none;padding: 0;margin: 0;padding-top: 10px;overflow: hidden;}
+.file-list>li{margin-right: 20px;float: left;position: relative;margin-bottom: 20px;}
+.file-list>li>div.file-img{border:1px solid #F4F4F4;padding: 20px;float: left;}
+.file-list>li>a.file-remove{position: absolute;left: 70px;top: -8px;display: none;}
+.file-list>li:hover>a.file-remove{display: inline-block;}
+.file-list>li>div.file-information{float: left;margin-left: 20px;width: 150px;}
+
+.model-right-text{
+    display: inline-block;
+    max-width: 560px;
+    padding: 7px 0;
+}
+
+
+.sh-bottom .customer-edit{
+	display: none;
+}
+
+.current-project>a.noafter:after{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

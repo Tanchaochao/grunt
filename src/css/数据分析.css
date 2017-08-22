@@ -1,0 +1,32 @@
+/* 
+* @Author: Marte
+* @Date:   2016-11-15 13:37:41
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-15 14:50:25
+*/
+.tongji-table.table-striped>tbody>tr>td:first-child{
+    text-align:left;
+}
+.tongji-table.table-striped>thead>tr>th:first-child{
+    border-left:0;
+}
+.tongji-table.table-striped>thead>tr:first-child>th{
+    border-top:1px solid #14d5aa;
+}
+.tongji-table.table{
+    width:100%;
+    max-width:200000px;
+}
+.tongji-type a{
+    color:#666;
+}
+.tongji-type div{
+    border:1px solid #666;
+    padding:5px 10px;
+    margin-bottom:10px;
+    border-radius:8px;
+}
+.tongji-type a:hover div,.tongji-type a.active div{
+    color:#14d5aa;
+    border-color:#14d5aa;
+}

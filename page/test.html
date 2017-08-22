@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>哈哈哈</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta content="telephone=no" name="format-detection" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"><!--favicon-->
+    
+
+    <!--jsp不需要-->
+    <script src="../templates.js"></script>
+    <!--替换成jsp的 include_css.jsp-->
+    <script>
+      document.write(TPL["include_css.html"]) ;
+    </script>
+  </head>
+  <body>
+    <!--替换成jsp的 include_header.jsp-->
+    <script>
+      document.write(TPL["include_header.html"]) ;
+    </script>
+
+    <div class="mt10 ft20">模块1的内容</div>
+    
+    <!--替换成jsp的 include_footer.jsp-->
+    <script>
+      document.write(TPL["include_footer.html"]) ;
+    </script>
+  
+  </body>
+  <!--替换成jsp的 include_js.jsp-->
+  <script>
+    document.write(TPL["include_js.html"]) ;
+  </script>
+</html>

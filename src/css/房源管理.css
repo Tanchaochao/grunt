@@ -1,0 +1,169 @@
+/* 
+* @Author: Marte
+* @Date:   2016-11-11 14:00:55
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-21 17:28:17
+*/
+.fangyuan-filter{
+    background: #f7f8fa;
+    border-radius:0 0 5px 5px;
+}
+.fangyuan-filter-line{
+    border-bottom: 1px dashed #ddd;
+}
+.fangyuan-filter-line ul{
+    width: 830px;
+}
+.fangyuan-filter-line:last-child{
+    border:none;
+}
+
+.fangyuan-filter-line a,.fangyuan-filter-line span{
+    display:inline-block;
+    padding:6px 0;
+    margin-bottom:10px;
+    width:70px;
+    font-size:12px;
+    text-align: center;
+    border:1px solid transparent;
+    border-radius:5px;
+    color:#666;
+}
+.fangyuan-filter-line span{
+    color:#aaa;
+}
+.fangyuan-filter-line a:hover,.fangyuan-filter-line a.more-btn:hover,.fangyuan-filter-line a.active{
+    border-color:#14d5aa;
+}
+.fangyuan-filter-line a.more-btn{
+    background: #fff;
+    border-color:#ddd;
+}
+.table-floor.table{
+    width:800px;
+}
+.table-floor.table td{
+    text-align:center;
+}
+.table-floor.table td.bg-red{
+    background: #ea6262;
+}
+.table-floor.table td.bg-orange{
+    background: #f59517;
+}
+.table-floor.table td.bg-green{
+    background: #1dbf84;
+}
+.table-floor.table>thead>tr>th{
+    background: #fff;
+    border-bottom:none;
+    width:110px;
+}
+.table-floor.table>thead>tr>th:first-child,.table-floor.table>tbody>tr>td:first-child{
+    border-bottom-color:transparent;
+    width:70px;
+    text-align:center;
+}
+.table-floor.table>tbody>tr:last-child>td:first-child{
+    border-bottom-color:#ddd;
+}
+.floor-legend>div{
+    width:128px;
+    height:50px;
+    border-radius:50px;
+    border:1px solid transparent;
+}
+
+.floor-legend>div span{
+    float:left;
+    margin-top:-1px;
+    margin-left:-1px;
+    margin-right:5px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border-radius:50px;
+    border:1px solid transparent;
+}
+.floor-legend>div.legend1,.floor-legend>div.legend1 span{
+    border-color: #000 ;
+}
+.floor-legend>div.legend2,.floor-legend>div.legend2 span{
+    border-color: #1dbf84 ;
+}
+.floor-legend>div.legend2 span{
+    background:#1dbf84;
+    color:#fff;
+}
+.floor-legend>div.legend3,.floor-legend>div.legend3 span{
+    border-color: #f59517 ;
+}
+.floor-legend>div.legend3 span{
+    background:#f59517;
+    color:#fff;
+}
+.floor-legend>div.legend4,.floor-legend>div.legend4 span{
+    border-color: #ea6262 ;
+}
+.floor-legend>div.legend4 span{
+    background:#ea6262;
+    color:#fff;
+}
+
+.huxingtu{border:1px solid #ddd;}
+.dingdan-table.table>thead>tr>th{
+    background: #fff;
+    border:none;
+    border-bottom:1px dashed #ddd;
+    color:#aaa;
+}
+
+.import-content{
+    border-left:1px dashed #14d5aa;
+}
+.import-content h4 span{
+    display:inline-block;
+    width:22px ;
+    height:18px ;
+    margin-left:-10px;
+    background-color:#fff;
+}
+
+.table-floor td.p-rel:hover .show-house-info{
+    display:block;
+}
+.show-house-info{
+    display:none;
+    position: absolute;
+    left:120px;
+    top:-65px;
+    width:280px;
+    padding:20px;
+    border:1px solid #555;
+    background: #fff;
+    color:#666;
+}
+.show-house-info:after,.show-house-info:before{
+    content: " ";
+    position: absolute;
+    border:10px solid transparent;
+    border-right-color:#555 ;
+}
+.show-house-info:before{
+    top:80px;
+    left:-20px;
+}
+.show-house-info:after{
+    border-width: 8px;
+    border-right-color:#fff;
+    top:82px;
+    left:-16px;
+}
+.show-house-info li{
+    line-height:30px;
+}
+.show-house-info span{
+    display: inline-block;
+    width:100px;
+}

@@ -1,0 +1,37 @@
+/* 
+* @Author: Marte
+* @Date:   2016-11-10 14:37:57
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-10 15:33:10
+*/
+.geren-nav{
+    width:130px;
+    border-right:1px solid #ddd;
+    border-radius:5px 0 0 5px;
+}
+.geren-nav ul{
+    margin-bottom:0;
+}
+.geren-nav ul li{
+    border-left:2px solid transparent ;
+    text-align:center;
+    line-height:40px;
+}
+.geren-nav ul a.active li{
+    border-color:#14d5aa ;
+    background: #eee;
+}
+.geren-nav ul a:hover li{
+    background: #eee;
+}
+
+.geren-content{
+    padding-left:150px;
+}
+
+.geren-form .form-control{
+    width:280px;
+}
+.geren-form .form-group{
+    margin-bottom:20px;
+}

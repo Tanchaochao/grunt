@@ -1,0 +1,64 @@
+/* 
+* @Author: Marte
+* @Date:   2016-11-10 14:37:57
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-11-10 17:24:40
+*/
+.xitong-nav{
+    width:130px;
+    border-right:1px solid #ddd;
+    border-radius:5px 0 0 5px;
+}
+.xitong-nav ul{
+    margin-bottom:0;
+}
+.xitong-nav ul li{
+    border-left:2px solid transparent ;
+    text-indent:20px;
+    line-height:40px;
+}
+.xitong-nav ul a.active li{
+    border-color:#14d5aa ;
+    background: #eee;
+}
+.xitong-nav ul a:hover li{
+    background: #eee;
+}
+
+.xitong-content{
+    padding-left:130px;
+    overflow:auto;
+}
+.xitong-content>.panel-heading{
+    color: #333;
+  border-color: #14d5aa;
+}
+.xitong-add-content{
+    border-top:1px solid #ddd;
+}
+.xitong-add-content .form-control-static{
+    width:70px;
+    text-align:right;
+    color:#666;
+    margin-right:10px;
+}
+.xitong-add-content .form-control{
+}
+.xitong-add-content form>.form-group{
+    margin-bottom:20px;
+}
+.xitong-add-content form{
+
+}
+#addRole .form-control{
+    width:400px;
+}
+
+.xitong-nav a .user-operation{
+	display: none;
+}
+.xitong-nav a.active .user-operation{
+	display: inline-block;
+}
+
+
